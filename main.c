@@ -77,7 +77,7 @@ void main() {
 
 		//increment sprite frame selector
 		if (frameCounter % 8 == 0)
-			spriteFrameSelector+=(spriteFrameSelector <= 32 ? 4 : -spriteFrameSelector);
+			spriteFrameSelector+=(spriteFrameSelector <= 40 ? 4 : -spriteFrameSelector);
 		frameCounter++;
 	}
 
